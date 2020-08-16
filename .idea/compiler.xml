@@ -9,8 +9,11 @@
         <module name="mvcDemo" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="mvcDemo" target="1.8" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> master
   </component>
 </project>
