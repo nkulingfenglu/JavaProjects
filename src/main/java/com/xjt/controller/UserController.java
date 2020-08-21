@@ -1,5 +1,6 @@
 package com.xjt.controller;
 
+import com.sun.tools.internal.ws.wsdl.document.jaxws.Exception;
 import com.xjt.model.User;
 import com.xjt.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ public class UserController {
     private IUserService userService;
 
     @RequestMapping("/select")
-    public ModelAndView selectUser() throws Exception {
+    public ModelAndView selectUser(){
         ModelAndView mv = new ModelAndView();
         User user = userService.selectUser(1);
         mv.addObject("user", user);
