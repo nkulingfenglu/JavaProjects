@@ -32,3 +32,4 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', '1589585621@qq.com', 'xjt', 'root', '15678635432');
+2323131
