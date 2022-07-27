@@ -14,7 +14,7 @@ fsfsfs
 fsfsf
 */
 @Controller
-@RequestMapping("/us")
+@RequestMapping("/se")
 public class UserController {
 
     @Autowired
